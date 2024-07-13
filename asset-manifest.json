@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vileyoga/static/css/main.ae42ac5f.css",
+    "main.js": "/vileyoga/static/js/main.45035a2d.js",
+    "index.html": "/vileyoga/index.html",
+    "main.ae42ac5f.css.map": "/vileyoga/static/css/main.ae42ac5f.css.map",
+    "main.45035a2d.js.map": "/vileyoga/static/js/main.45035a2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae42ac5f.css",
+    "static/js/main.45035a2d.js"
+  ]
+}
