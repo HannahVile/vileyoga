@@ -1,6 +1,13 @@
 @import url('https://fonts.cdnfonts.com/css/madelina-script');
 @import url('https://fonts.cdnfonts.com/css/nightingale');
 
+@media (max-width:767px) {
+  body,html{
+  p, h1{
+    float: left;
+  }
+}}
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -219,6 +226,17 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+
+@media  (max-width: 600px) {
+  .intro {
+  background-image: url('../img/imgs/Vile-mobile.jpeg');
+    background-size: contain;
+}}
+@media  (max-width: 600px) {
+#header > div > div > div{
+  background-image:url(../img/imgs/Vile-mobile.jpeg)center center no-repeat; ;
+}}
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -328,27 +346,29 @@ header .intro-text {
 /**/
 
 .iframe-wrapper {
+  width: 120%;
+  height: 1400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px; /* Optional: Add some padding */
+  padding: 0px; /* Optional: Add some padding */
 }
 
 .iframe-container {
   position: relative;
   width: 100%;
-  max-width: 800px; /* Adjust the max width as needed */
+  max-width: 1300px; /* Adjust the max width as needed */
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
+  height: 1000px;
   overflow: hidden;
   background: #f9f9f9;
   border: 1px solid #ddd;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
 }
 
 .iframe-container iframe {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -357,11 +377,7 @@ header .intro-text {
 #Blog{
   width: 100%;
 }
-
-}
-
-
-
+}}
 
 
 
