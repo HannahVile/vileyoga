@@ -8,6 +8,24 @@
   }
 }}
 
+
+  #menu > div > div.navbar-header > a > img
+  {
+    height: 40px;
+    margin-top: 1%;
+  margin-left: 5%;
+}
+
+@media (min-width:1200px){
+  #menu > div > div.navbar-header > a > img{
+    height: 40px;
+    margin-top: 1%;
+  margin-left: -900%;
+  }
+}
+
+
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -214,10 +232,12 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
+
 /* Header Section */
 .intro {
   display: table;
   width: 100%;
+  height: 100%;
   padding: 0;
   background: url(../img/imgs/Vile.jpg) center center no-repeat;
   background-color: #e5e5e5;
@@ -240,29 +260,9 @@ a:focus,
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
-.intro h1 {
-  font-family: 'Nightingale', sans-serif;
-  color: #050806;
-  font-size: 60px;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 55px;
-}
-.intro h1 span {
-  font-weight: nor;
-  color: #5ca9fb;
-}
-.intro p {
-  color: #070a09;
-  font-family: "italics";
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 30px;
-  margin: 0 auto;
-  padding-top:20px ;
-  margin-bottom: 250px;
-}
+
+
+
 header .intro-text {
   padding-left: 80px;
   padding-top: 350px;
